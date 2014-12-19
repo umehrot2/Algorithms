@@ -13,7 +13,15 @@ public class UnionFind {
             arr[i] = i;
         }
     }
-    
+
+    public boolean connected(int p, int q)
+    {
+        if(arr[p] == arr[q])
+            return true;
+        else
+            return false;
+    }
+
     public static void main(String[] args)
     {
         int n;
