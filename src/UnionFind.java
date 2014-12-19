@@ -22,6 +22,11 @@ public class UnionFind {
             return false;
     }
 
+    public void union(int p, int q)
+    {
+        
+    }
+
     public static void main(String[] args)
     {
         int n;

@@ -26,8 +26,8 @@
       <file leaf-file-name="UnionFind.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UnionFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8229342" vertical-offset="52" max-vertical-offset="705">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5699831" vertical-offset="52" max-vertical-offset="780">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -342,12 +342,12 @@
       <changelist id="feb8217a-7e1a-48d7-be3a-75a76cb2b215" name="Default" comment="" />
       <created>1419021742900</created>
       <updated>1419021742900</updated>
-      <workItem from="1419021744807" duration="696000" />
+      <workItem from="1419021744807" duration="1005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="696000" />
+    <option name="totallyTimeSpent" value="1005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="713" extended-state="6" />
@@ -402,8 +402,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UnionFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8229342" vertical-offset="52" max-vertical-offset="705">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5699831" vertical-offset="52" max-vertical-offset="780">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding />
         </state>
       </provider>
