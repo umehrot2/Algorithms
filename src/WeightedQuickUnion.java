@@ -21,6 +21,7 @@ public class WeightedQuickUnion
     {
         while(arr[x] != x)
         {
+            arr[x] = arr[arr[x]]; //Path Compression - by making nodes point to their grandparents instead of parents
             x = arr[x];
         }
 
