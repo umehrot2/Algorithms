@@ -36,17 +36,6 @@ public class SortDateComparators {
 
     public static void main(String args[])
     {
-        /*
-        Integer arr[] = {100,50,200,36,89,23,66,134,13,456,789,987,235,234,34,36,34,56,11,19,80};
-
-        InsertionSort ss = new InsertionSort();
-        ss.sort(arr);
-
-        System.out.println("Sorted Integers : ");
-        for(int i = 0; i < arr.length; i++)
-        {
-            System.out.println(arr[i]);
-        }*/
 
         SortDateComparators ss = new SortDateComparators();
 
