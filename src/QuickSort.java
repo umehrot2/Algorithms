@@ -63,7 +63,7 @@ public class QuickSort {
 
     public static void main(String[] args)
     {
-        Integer arr[] = {100,50,200,36,89,23,66,134,13,456,789,987,235,234,34,36,34,56,11,19,80};
+        Integer arr[] = {45,23,10,56,90,66,78,34,567,78,234,123, 1, 15, 6 ,9};
 
         QuickSort qs = new QuickSort();
         qs.sort(arr);

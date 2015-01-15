@@ -1,14 +1,49 @@
+import java.util.Iterator;
+
 /**
  * Created by uditmehrotra on 22/12/14.
  */
-public class QueueLinkedList {
+public class QueueLinkedList<Key> implements Iterable<Key>
+{
 
     private Node first = null;
     private Node last = null;
 
+    @Override
+    public Iterator<Key> iterator() {
+        return new QueueIterator();
+    }
+
+    private class QueueIterator implements Iterator<Key>
+    {
+        private Node current = first;
+        @Override
+        public boolean hasNext() {
+            if(current != null)
+                return true;
+            else
+                return false;
+        }
+
+        @Override
+        public Key next() {
+            if(current == null) return null;
+
+            Key k = current.item;
+            current = current.next;
+            return k;
+        }
+
+        @Override
+        public void remove() {
+            UnsupportedOperationException ex = new UnsupportedOperationException();
+            throw ex;
+        }
+    }
+
     private class Node
     {
-        String item;
+        Key item;
         Node next;
     }
 
@@ -17,7 +52,7 @@ public class QueueLinkedList {
         return first == null;
     }
 
-    private void enqueue(String item)
+    public void enqueue(Key item)
     {
         Node old_last = last;
         last = new Node();
@@ -34,11 +69,11 @@ public class QueueLinkedList {
         }
     }
 
-    private String dequeue()
+    private Key dequeue()
     {
         if(!isEmpty())
         {
-            String item = first.item;
+            Key item = first.item;
             first = first.next;
             if(isEmpty())
                 last = null;
@@ -54,7 +89,7 @@ public class QueueLinkedList {
 
     public static void main(String[] args)
     {
-        QueueLinkedList queue = new QueueLinkedList();
+        QueueLinkedList<String> queue = new QueueLinkedList<String>();
         queue.enqueue("Udit UIUC");
         queue.enqueue("Ujjwal");
         queue.enqueue("Neeraj");
